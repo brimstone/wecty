@@ -42,7 +42,7 @@ func New() *Converter {
 	return &Converter{
 		StdModules: map[string]bool{},
 		ExtModules: map[string]string{
-			"github.com/nobonobo/wecty": "",
+			"github.com/brimstone/wecty": "",
 		},
 		Properties: []Property{},
 		Methods:    map[string]string{},

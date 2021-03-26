@@ -1,4 +1,4 @@
-module github.com/nobonobo/wecty
+module github.com/brimstone/wecty
 
 go 1.14
 

@@ -77,9 +77,9 @@ import { Server , Client } as defs from "jsonrpclib.js";
 
 ### HTML マークアップ（実装済み）
 
-- `<import as="cmp">github.com/nobonobo/wecty/examples/todo/components</import>`
+- `<import as="cmp">github.com/brimstone/wecty/examples/todo/components</import>`
   - 他所のパッケージを参照する必要がある場合に記述
-  - `import (cmp "github.com/nobonobo/wecty/examples/todo/components")`に置換
+  - `import (cmp "github.com/brimstone/wecty/examples/todo/components")`に置換
   - as 属性は省略可能
 - `<raw>wecty.Markup値を得るGo記述を直接記述</raw>`
   - Node を記述する際に Go の記述を使う（主にコンポーネントインスタンスを書く）

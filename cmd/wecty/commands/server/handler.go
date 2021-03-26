@@ -10,7 +10,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/nobonobo/wecty/cmd/wecty/commands"
+	"github.com/brimstone/wecty/cmd/wecty/commands"
 )
 
 /*

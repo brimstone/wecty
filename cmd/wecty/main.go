@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nobonobo/wecty/cmd/wecty/commands"
-	_ "github.com/nobonobo/wecty/cmd/wecty/commands/generate"
-	_ "github.com/nobonobo/wecty/cmd/wecty/commands/server"
+	"github.com/brimstone/wecty/cmd/wecty/commands"
+	_ "github.com/brimstone/wecty/cmd/wecty/commands/generate"
+	_ "github.com/brimstone/wecty/cmd/wecty/commands/server"
 )
 
 func main() {

@@ -36,7 +36,7 @@ Wecty: フロントエンドツールキット for Go and TinyGo
 ### ツールのセットアップ
 
 ```shell
-go get github.com/nobonobo/wecty/cmd/wecty
+go get github.com/brimstone/wecty/cmd/wecty
 ```
 
 ### ファイル群の準備
@@ -67,7 +67,7 @@ top_gen.go が生成されます
 package main
 
 import (
-  "github.com/nobonobo/wecty"
+  "github.com/brimstone/wecty"
 )
 
 func (c *TopView) Render() wecty.HTML {
@@ -86,7 +86,7 @@ top.go
 package main
 
 import (
-  "github.com/nobonobo/wecty"
+  "github.com/brimstone/wecty"
 )
 
 type TopView struct {
@@ -111,7 +111,7 @@ main.go
 package main
 
 import (
-  "github.com/nobonobo/wecty"
+  "github.com/brimstone/wecty"
 )
 
 func main() {
@@ -253,13 +253,13 @@ wecty.Tag("form",
 ### RAW 記述
 
 ```html
-<import>github.com/nobonobo/examples/todo/components</import>
+<import>github.com/brimstone/examples/todo/components</import>
 <div><raw>&components.Item{}</raw></div>
 ```
 
 ```go
 import (
-  "github.com/nobonobo/examples/todo/components"
+  "github.com/brimstone/examples/todo/components"
 )
 ...
   return wecty.Tag("div",
